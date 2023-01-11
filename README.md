@@ -7,8 +7,8 @@ A fully optimaizated Website for marketing agency Horiseon. Now the site is opti
 
 ## Usage
 
-View this site using the following URL:
-
+View webpage using the following URL:
+https://winglovecola.github.io/module-1-challenge/
 
 ## Preview
 
