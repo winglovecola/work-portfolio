@@ -84,6 +84,8 @@ p {
     margin-left: 25px;
 }
 
+
+
 /* content section */
 .content {
     width: 75%;
@@ -110,6 +112,7 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
 
 
 /* benefits section */
@@ -142,6 +145,8 @@ p {
 }
 
 
+
+/* footer section */
 .footer {
     padding: 30px;
     clear: both;
