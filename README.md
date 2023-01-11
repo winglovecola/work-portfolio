@@ -2,7 +2,7 @@
 
 ## Description
 
-A fully optimaizated Website for marketing agency Horiseon. Now the site is optimized for search engines in both speed and accessibility standards.
+A fully optimaizated website for marketing agency Horiseon. Now the site is optimized for search engines in both speed and accessibility standards.
 
 
 ## Usage
