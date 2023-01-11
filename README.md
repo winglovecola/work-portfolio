@@ -17,5 +17,4 @@ https://winglovecola.github.io/module-1-challenge/
 
 ## License
 
-Please refer to the LICENSE in the repo.# 
-module-1-challenge
+Please refer to the LICENSE in the repo. 
