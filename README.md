@@ -12,7 +12,7 @@ https://winglovecola.github.io/module-1-challenge/
 
 ## Preview
 
-![Website screenshot](https://github.com/winglovecola/module-1-challenge/blob/main/01-html-css-git-homework-demo.png?raw=true)
+![Website screenshot](https://github.com/winglovecola/module-1-challenge/blob/main/assets/images/01-html-css-git-homework-demo.png?raw=true)
 
 
 ## License
