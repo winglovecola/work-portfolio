@@ -177,18 +177,15 @@ main {
     
     border-top: 1px solid rgb(11, 77, 143); 
     border-bottom: 1px solid rgb(11, 77, 143); 
-
     padding: 50px 20px 40px 60px;
 }
 
 
 #about-me #about-me-title {
-
     border-top: 1px solid rgb(11, 77, 143); 
     border-bottom: 1px solid rgb(11, 77, 143); 
     border-left: 1px solid rgb(190, 224, 255); 
     border-right: 1px solid rgb(190, 224, 255); 
-
 }
 
 
@@ -201,12 +198,10 @@ main {
 
 
 #work #work-title {
-
     border-top: 1px solid rgb(184, 41, 134); 
     border-bottom: 1px solid rgb(184, 41, 134); 
     border-left: 1px solid rgb(255, 235, 248); 
     border-right: 1px solid rgb(255, 235, 248); 
-
 }
 
 
@@ -236,7 +231,6 @@ main {
 
 
   .workapp-child a {
-
     display: block;
     padding: 10px 10px 60px 10px;
     font-size: 25px;
@@ -244,7 +238,6 @@ main {
 
     border-radius: 10px;
     border: 1px solid black;
-
   }
 
 
@@ -263,22 +256,18 @@ main {
   }
 
   .workapp-child:hover {
-
     opacity: 1;
   }
   
 
   .workapp-child:hover a div{
-
     box-shadow: 3px 3px 10px #ffffff;
-
   }
   
   .workapp-child a div span {
     font-size: 14px;
   }
   
-
 
   .workapp-child:first-child {
     width: 100%;
@@ -290,64 +279,55 @@ main {
   }
 
 
+
+
   /*workapp background*/
   #workapp1 {
-
     background-image: url("../images/workapp1.jpg");
   }
 
   #workapp1 a:hover {
-
     box-shadow: 7px 7px 20px #2587ff;
   }
 
 
-
   #workapp2 {
-
     background-image: url("../images/workapp2.jpg");
   }
   
   #workapp2 a:hover {
-
     box-shadow: 7px 7px 20px #19b811;
   }
 
 
-
-
   #workapp3 {
-
     background-image: url("../images/workapp3.jpg");
   }
 
   #workapp3 a:hover {
-
     box-shadow: 7px 7px 20px #951bdc;
   }
 
 
-
   #workapp4 {
-
     background-image: url("../images/workapp4.jpg");
   }
 
   #workapp4 a:hover {
-
     box-shadow: 7px 7px 20px #e77ba9;
   }
 
 
   #workapp5 {
-
     background-image: url("../images/workapp5.jpg");
   }
 
   #workapp5 a:hover {
-
     box-shadow: 7px 7px 20px #eb813b;
   }
+
+
+
 
 
 /*contact me section*/
@@ -445,6 +425,7 @@ main {
 
 
 @media screen and (max-width: 768px) {
+    
     /*header subtitle in different view*/
     header #subtitle {
 
@@ -453,6 +434,19 @@ main {
         font-size: 16px;
     }
 
+
+    /*avatar section*/
+    header #avatar {
+        top: 40px;
+        left: 50px;
+        width: 190px;
+        height: 190px;
+    }
+
+    header #profile-name {
+        left: 210px;
+    }
+    
 
 
     /*about me section*/
