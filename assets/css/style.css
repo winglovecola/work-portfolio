@@ -31,7 +31,7 @@ header .header-bar {
 
 }
 
-
+/*avatar section*/
 header #avatar {
     display: block;
     position: absolute;
@@ -66,6 +66,7 @@ header #profile-name {
 }
 
 
+/*header subtitle*/
 header #subtitle {
 
     display: block;
@@ -128,7 +129,7 @@ header nav a {
 
 
 
-
+/*main section*/
 main {
     padding: 35px;
     margin-top: 50px;
@@ -391,9 +392,16 @@ main {
 
 }
 
+
+
+
+
+/* resume section */
 #resume {
     border-top: 1px solid rgb(190, 98, 22); 
     border-bottom: 1px solid rgb(190, 98, 22); 
+
+    padding: 50px 20px 40px 60px;
 }
 
 
@@ -405,6 +413,19 @@ main {
     border-right: 1px solid rgb(255, 237, 222); 
 
 }
+
+
+#resume-content h2 {
+
+    font-size: 25px;
+}
+
+
+#resume-div img {
+
+    width: 150px;
+}
+
 
 
 
