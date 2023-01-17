@@ -136,20 +136,21 @@ main {
 
 
 
-
+/*content section common css*/
 .content-section {
 
     display: block;
     position: relative;
     width: 100%;
     max-width: 1500px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255, 0.75);
+    font-family:  "Arial";
+    font-size: 20px;
     margin-left:auto;
     margin-right:auto;
     margin-top: 55px;
     margin-bottom: 100px;
-    background-color: rgb(255, 255, 255, 0.75);
-    font-family:  "Arial";
-    font-size: 20px;
 }
 
 .content-title {
@@ -160,16 +161,18 @@ main {
     top: -55px;
     width: 250px;
     height: 70px;
-    padding: 20px;
-    background-color: rgb(255, 255, 255, 0.75);
+    
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255, 0.7);
     transform: skew(-30deg);
     font-family:  'Times New Roman', Times, serif;
     font-size: 40px;
     font-weight: bold;
+    padding: 20px;
 }
 
 
-
+/*about me section*/
 #about-me {
     
     border-top: 1px solid rgb(11, 77, 143); 
@@ -190,7 +193,7 @@ main {
 
 
 
-
+/*work section*/
 #work {
     border-top: 1px solid rgb(184, 41, 134); 
     border-bottom: 1px solid rgb(184, 41, 134); 
@@ -250,7 +253,7 @@ main {
   .workapp-child a div {
 
     display: inline-block;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.8);
     color: white;
     padding: 12px;
     text-align: left;
@@ -347,10 +350,35 @@ main {
   }
 
 
+/*contact me section*/
+#contact-me-content {
+
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+#contact-me-content > .contact-me-div {
+
+    flex: 2;
+
+    padding: 10px;
+}
+
+#contact-me-content h2 {
+
+    font-size: 25px;
+}
+
+#contact-me-content h3 {
+
+    font-size: 18px;
+}
 
 #contact-me {
     border-top: 1px solid rgb(25, 161, 22); 
-    border-bottom: 1px solid rgb(25, 161, 22); 
+    border-bottom: 1px solid rgb(25, 161, 22);
+    
+    padding: 50px 20px 40px 60px;
 }
 
 
