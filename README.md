@@ -12,7 +12,7 @@ https://winglovecola.github.io/work-portfolio
 
 ## Preview
 
-![Website screenshot]()
+![Website screenshot](https://github.com/winglovecola/work-portfolio/blob/main/assets/images/screenshot.jpg?raw=true)
 
 
 ## License
