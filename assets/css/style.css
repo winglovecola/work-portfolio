@@ -110,13 +110,12 @@ header nav ul {
 header nav ul li {
     flex: 1;
     white-space: nowrap;
-    padding-top: 20px;
-    padding-bottom: 20px;
+
 
 }
 
 header nav ul li:hover {
-  background:#2d2d2d;
+  background:#373737;
   border: 1px solid white;
 }
 
@@ -126,7 +125,9 @@ header nav a {
   display: block;
   width: 100%;  
   color: #ffffff;
-    text-decoration: none;
+  text-decoration: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 header nav ul li:hover a {
 
