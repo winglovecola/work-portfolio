@@ -94,9 +94,6 @@ header #subtitle {
 header nav {
     display: block;
     background-color: black;
-
-    padding-top: 20px;
-    padding-bottom: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 
@@ -113,15 +110,27 @@ header nav ul {
 header nav ul li {
     flex: 1;
     white-space: nowrap;
+    padding-top: 20px;
+    padding-bottom: 20px;
 
 }
+
+header nav ul li:hover {
+  background:#2d2d2d;
+  border: 1px solid white;
+}
+
+
 
 header nav a {
-    color: #ffffff;
+  display: block;
+  width: 100%;  
+  color: #ffffff;
+    text-decoration: none;
 }
+header nav ul li:hover a {
 
-header nav a:hover {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 
