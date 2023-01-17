@@ -162,7 +162,6 @@ main {
     top: -55px;
     width: 250px;
     height: 70px;
-    
     border-radius: 5px;
     background-color: rgb(255, 255, 255, 0.7);
     transform: skew(-30deg);
@@ -440,4 +439,26 @@ main {
 
 .footer h2 {
     font-size: 20px;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    /*header subtitle in different view*/
+    header #subtitle {
+
+        right: 10px;
+        bottom: 155px;
+        font-size: 16px;
+    }
+
+
+
+    /*about me section*/
+    #about-me {
+
+        padding-left: 30px;
+    }
+
 }
